@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+ }
+ 
+
+
+ .Us{
+    display: flex;
+    height: 100px;
+    width: 0px;
+    vertical-align: auto;
+    margin-top: 80px;
+    margin-left: 200px;
+ }
+
+
+ .Oil{
+    display: flex;
+    height: 100px;
+    width: 0px;
+    vertical-align: auto;
+    margin-left: 10px;
+ }
+
+ .cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 460px;
+    column-gap: 100px;
+    margin-top: 150px;
+ }
+
+
+
+
+
+.photo1{
+    display: inline-block;
+    height: 225px;
+    width: 400px;
+    font-family: roboto;
+    margin-left: 100px;
+    padding-top: 55px;
+}
+
+
+.Name{
+    display: inline-block;
+    color: #fff;
+    font-size: 40px;
+    font-family: roboto;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding-top: 56px;
+    width: 1px;
+    
+}
+
+.Name1{
+    display: inline-block;
+    color: #fff;
+    font-size: 40px;
+    font-family: roboto;
+    margin-left: -120px;
+    margin-top: 25px;
+    padding-top: 120px;
+    
+}
+
+.photo{
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    font-family: roboto;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.DIV{
+    margin-top: 350px;
+    margin-left: 620px;
+}
+
+.Welcome{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-family: roboto;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(195, 183, 244);
+    color:rgba(30, 29, 36, 1);
+    opacity: 0.7;
+    transition: opacity 0.25s;
+}
+
+.Welcome:hover{
+    opacity: 1;
+    cursor: pointer;
+}

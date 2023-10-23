@@ -1,0 +1,436 @@
+body {
+    background-color: black;
+ }
+ 
+ 
+ 
+ .DIV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    height: 40px;
+    width: 100px;
+    margin-left: 48px;
+    border-radius: 12px;
+    transition: opacity 0.5s;
+    transition:  background-color 0.25s;
+ 
+ 
+ 
+ }
+ 
+ .button{
+    color: rgba(150, 149, 155, 1);
+    opacity: 1;
+    font-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: roboto;
+ 
+ } 
+ 
+ 
+ .Main{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding-right: 100px;
+ 
+ }
+
+ .description_title{
+    font-family: roboto;
+    color: rgba(150, 149, 155, 1);
+
+ }
+ 
+ .header {
+    position: fixed;
+    width: 1200px;
+    padding: 10px 100px;
+    margin-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    height: 100px;
+ }
+ 
+ .DIV:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: rgba(30, 29, 36, 1);
+ }
+
+ .description{
+    width: 1000px;
+    height: 150px;
+    margin-left: 200px;
+    border-radius: 12px;
+ }
+
+ .description_title1{
+    width: 100%;
+    height: 90px;
+    padding-left: 30px;
+    font-size: 50px;
+    color:rgba(150, 149, 155, 1);
+    font-family: roboto;
+    padding-top: 20px;
+    padding-bottom: 0px;
+ }
+
+ 
+ .problem_grid{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    width: 1000px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 0px;
+    column-gap: 20px;
+
+    color: rgba(30, 29, 36, 1);
+
+ }
+
+ .problem_grid2{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    width: 1000px;
+    height: 100px;
+    margin-left: 120px;
+    margin-top: 20px;
+    column-gap: 20px;
+ }
+
+ .problem_grid3{
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    width: 1000px;
+    height: 100px;
+    margin-left: 260px;
+    margin-top: 20px;
+    column-gap: 20px;
+ }
+
+ .problem_grid4{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    width: 1000px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    column-gap: 20px;
+ }
+
+ .Problem1:hover{
+    cursor: pointer;
+    opacity: 1;
+ }
+
+ .Problem2:hover{
+    cursor: pointer;
+    opacity: 1;
+ }
+
+ .Problem3:hover{
+    cursor: pointer;
+    opacity: 1;
+ }
+
+ .Problem4:hover{
+    cursor: pointer;
+    opacity: 1;
+ }
+
+ .Problem5:hover{
+    cursor: pointer;
+    opacity: 1;
+ }
+
+ .Problem6:hover{
+    cursor: pointer;
+    opacity: 1;
+ }
+
+ .Problem7:hover{
+    cursor: pointer;
+    opacity: 1;
+ }
+
+ .Problem8:hover{
+    cursor: pointer;
+    opacity: 1;
+ }
+
+ .Problem9:hover{
+    cursor: pointer;
+    opacity: 1;
+ }
+
+ .Problem1{
+    opacity: 0.7;
+    background-color: rgb(93, 191, 131);
+    border-radius: 12px;
+    transition: opacity 0.25s;
+    padding-left: 90px;
+    padding-top: 35px;
+    font-family: roboto;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgba(30, 29, 36, 1);
+ }
+
+ .Problem2{
+    background-color: yellow ;
+    border-radius: 12px;
+    opacity: 0.7;
+    transition: opacity 0.25s;
+    padding-left: 130px;
+    padding-top: 37px;
+    font-family: roboto;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgba(30, 29, 36, 1);
+ }
+
+ .Problem3{
+    background-color: rgb(255, 120, 120);
+    border-radius: 12px;
+    opacity: 0.7;
+    transition: opacity 0.25s;
+    padding-left: 60px;
+    padding-top: 37px;
+    font-family: roboto;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgba(30, 29, 36, 1);
+ }
+
+ .Problem4{
+    background-color: rgb(207, 42, 42);
+    border-radius: 12px;
+    opacity: 0.7;
+    transition: opacity 0.25s;
+    padding-left: 57px;
+    padding-top: 37px;
+    font-family: roboto;
+    font-size: 19px;
+    width: 300px;
+    font-weight: bold;
+    color: rgba(30, 29, 36, 1);
+ }
+
+ .Problem5{
+    background-color: green;
+    border-radius: 12px;
+    opacity: 0.7;
+    transition: opacity 0.25s;
+    padding-left: 140px;
+    padding-top: 37px;
+    font-family: roboto;
+    font-size: 19px;
+    width: 300px;
+    font-weight: bold;
+    color: rgba(30, 29, 36, 1);
+ }
+
+ .Problem6{
+    background-color: rgb(165, 68, 197);
+    border-radius: 12px;
+    opacity: 0.7;
+    transition: opacity 0.25s;
+    padding-left: 105px;
+    padding-top: 37px;
+    font-family: roboto;
+    font-size: 19px;
+    width: 200px;
+    font-weight: bold;
+    color: rgba(30, 29, 36, 1);
+ }
+
+ .Problem7{
+    background-color: rgb(186, 186, 249);
+    border-radius: 12px;
+    opacity: 0.7;
+    transition: opacity 0.25s;
+    padding-left: 170px;
+    padding-top: 37px;
+    font-family: roboto;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgba(30, 29, 36, 1);
+ }
+
+ .Problem8{
+    background-color: pink;
+    border-radius: 12px;
+    opacity: 0.7;
+    transition: opacity 0.25s;
+    padding-left: 53px;
+    padding-top: 37px;
+    font-family: roboto;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgba(30, 29, 36, 1);
+ }
+
+ .Problem9{
+    background-color: rgb(129, 129, 231);
+    border-radius: 12px;
+    opacity: 0.7;
+    transition: opacity 0.25s;
+    padding-left: 90px;
+    padding-top: 37px;
+    font-family: roboto;
+    font-size: 19px;
+    width: 200px;
+    font-weight: bold;
+    color: rgba(30, 29, 36, 1);
+ }
+
+ .Problem10{
+   background-color: rgb(226, 129, 231);
+   border-radius: 12px;
+   opacity: 0.7;
+   transition: opacity 0.25s;
+   padding-left: 100px;
+   padding-top: 37px;
+   font-family: roboto;
+   font-size: 19px;
+   width: 300px;
+   font-weight: bold;
+   color: rgba(30, 29, 36, 1);
+}
+
+.Problem11{
+   background-color: rgb(121, 236, 115);
+   border-radius: 12px;
+   opacity: 0.7;
+   transition: opacity 0.25s;
+   padding-left: 100px;
+   padding-top: 37px;
+   font-family: roboto;
+   font-size: 19px;
+   width: 300px;
+   font-weight: bold;
+   color: rgba(30, 29, 36, 1);
+}
+
+.Problem12{
+   background-color: rgb(129, 129, 231);
+   border-radius: 12px;
+   opacity: 0.7;
+   transition: opacity 0.25s;
+   padding-left: 160px;
+   padding-top: 37px;
+   font-family: roboto;
+   font-size: 19px;
+   width: 300px;
+   font-weight: bold;
+   color: rgba(30, 29, 36, 1);
+}
+
+.Problem10:hover{
+   cursor: pointer;
+   opacity: 1;
+}
+
+.Problem11:hover{
+   cursor: pointer;
+   opacity: 1;
+}
+
+.Problem12:hover{
+   cursor: pointer;
+   opacity: 1;
+}
+
+.Problem13:hover{
+   cursor: pointer;
+   opacity: 1;
+}
+
+ .description_title1{
+   margin-left: 100px;
+ }
+
+ .problem{
+   display: inline-block;
+   text-decoration: none;
+ }
+
+ .problem1{
+   display: inline-block;
+   text-decoration: none;
+   color: rgba(30, 29, 36, 1);
+ }
+
+ .problem2{
+   width: 400px;
+   text-decoration: none;
+ }
+
+ .problem3{
+   width: 400px;
+   text-decoration: none;
+ }
+
+ .problem4{
+   width: 400px;
+   text-decoration: none;
+ }
+
+ .problem5{
+   width: 270px;
+   text-decoration: none;
+ }
+
+ .problem6{
+   width: 180px;
+   text-decoration: none;
+ }
+
+ .problem7{
+   width: 180px;
+   text-decoration: none;
+ }
+
+ .problem8{
+   width: 180px;
+   text-decoration: none;
+ }
+
+ .problem9{
+   width: 180px;
+   text-decoration: none;
+ }
+
+ .problem10{
+   width: 300px;
+   text-decoration: none;
+ }
+
+ .problem11{
+   width: 300px;
+   text-decoration: none;
+ }
+
+ .problem12{
+   width: 400px;;
+   text-decoration: none;
+ }
+
+ .photo1{
+   display: inline-block;
+   height: 50px;
+   width: 50px;
+   font-family: roboto;
+   margin-left: -200px;
+   margin-top: 7px;
+   filter: grayscale(100%);
+   opacity: 0.7;
+ }
