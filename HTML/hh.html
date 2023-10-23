@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="hh.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>Issue Form</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label><span style="color: rgb(195, 183, 244);">Full Name</span></label>
+          <input type="text" placeholder="Enter full name" required />
+        </div>
+        <div class="input-box">
+          <label><span style="color: rgb(195, 183, 244);">Email Address</span></label>
+          <input type="text" placeholder="Enter email address" required />
+        </div>
+        <div class="column">
+          <div class="input-box">
+            <label><span style="color: rgb(195, 183, 244);">Phone Number</span></label>
+            <input type="number" placeholder="Enter phone number" required />
+          </div>
+          <div class="input-box">
+            <label><span style="color: rgb(195, 183, 244);">Birth Date</span></label>
+            <input type="date" placeholder="Enter birth date" required />
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3><span style="color: rgb(195, 183, 244);">Gender</span></h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">male</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">Female</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">prefer not to say</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <label><span style="color: rgb(195, 183, 244);">Problem</span></label>
+          <input type="text" placeholder="Enter Problem" required />
+          <input type="text" placeholder="Enter Problem Description" required />
+        <button><span style="color:rgba(30, 29, 36, 1);">Submit</span></button>
+      </form>
+    </section>
+  </body>
+</html>
